@@ -11,6 +11,9 @@ import { PaolaComponent } from './episodios/paola/paola.component';
 import { PeDeFavaComponent } from './episodios/pe-de-fava/pe-de-fava.component';
 import { ChefComponent } from './episodios/chef/chef.component';
 import { PratosDesastrososComponent } from './episodios/pratos-desastrosos/pratos-desastrosos.component';
+import { ServicoComponent } from './episodios/servico/servico.component';
+import { RafaVsWillianComponent } from './episodios/rafa-vs-willian/rafa-vs-willian.component';
+import { Final2018Component } from './episodios/final2018/final2018.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { PratosDesastrososComponent } from './episodios/pratos-desastrosos/prato
     PaolaComponent,
     PeDeFavaComponent,
     ChefComponent,
-    PratosDesastrososComponent
+    PratosDesastrososComponent,
+    ServicoComponent,
+    RafaVsWillianComponent,
+    Final2018Component
   ],
   imports: [
     BrowserModule,
