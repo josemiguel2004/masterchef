@@ -2,6 +2,17 @@
 h4{
     font-weight: 500;
 }
-p{
+#abc{
     font-size: medium;
+    font-weight: bold;
+    margin-top:2px ;
+}
+
+img{
+  width: 50%;
+  margin-left: 200px;
+  margin-top: 5px;
+}
+nav{
+  margin-top: 5px;
 }
