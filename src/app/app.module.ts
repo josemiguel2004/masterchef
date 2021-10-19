@@ -14,6 +14,10 @@ import { PratosDesastrososComponent } from './episodios/pratos-desastrosos/prato
 import { ServicoComponent } from './episodios/servico/servico.component';
 import { RafaVsWillianComponent } from './episodios/rafa-vs-willian/rafa-vs-willian.component';
 import { Final2018Component } from './episodios/final2018/final2018.component';
+import { Pergunta01Component } from './perguntas/pergunta01/pergunta01.component';
+import { Pergunta02Component } from './perguntas/pergunta02/pergunta02.component';
+import { CorretaComponent } from './Respostas/correta/correta.component';
+import { IncorretaComponent } from './respostas/incorreta/incorreta.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +32,11 @@ import { Final2018Component } from './episodios/final2018/final2018.component';
     PratosDesastrososComponent,
     ServicoComponent,
     RafaVsWillianComponent,
-    Final2018Component
+    Final2018Component,
+    Pergunta01Component,
+    Pergunta02Component,
+    CorretaComponent,
+    IncorretaComponent
   ],
   imports: [
     BrowserModule,

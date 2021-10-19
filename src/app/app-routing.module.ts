@@ -10,6 +10,7 @@ import { HomeComponent } from './template/home/home.component';
 import { JaquicnComponent } from './episodios/jaquicn/jaquicn.component';
 import { NgModule, Component } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { Pergunta01Component } from './perguntas/pergunta01/pergunta01.component';
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
@@ -21,7 +22,8 @@ const routes: Routes = [
   {path:'pratos-desastrosos',component:PratosDesastrososComponent},
   {path:'servico',component:ServicoComponent},
   {path:'rafa-vs-willian',component:RafaVsWillianComponent},
-  {path:'final2018',component:Final2018Component}
+  {path:'final2018',component:Final2018Component},
+  {path:'pergunta01',component:Pergunta01Component}
 ];
 
 @NgModule({
