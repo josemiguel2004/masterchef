@@ -18,6 +18,9 @@ import { Pergunta01Component } from './perguntas/pergunta01/pergunta01.component
 import { Pergunta02Component } from './perguntas/pergunta02/pergunta02.component';
 import { CorretaComponent } from './Respostas/correta/correta.component';
 import { IncorretaComponent } from './respostas/incorreta/incorreta.component';
+import { Pergunta03Component } from './perguntas/pergunta03/pergunta03.component';
+import { Pergunta04Component } from './perguntas/pergunta04/pergunta04.component';
+import { Pergunta05Component } from './perguntas/pergunta05/pergunta05.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +39,10 @@ import { IncorretaComponent } from './respostas/incorreta/incorreta.component';
     Pergunta01Component,
     Pergunta02Component,
     CorretaComponent,
-    IncorretaComponent
+    IncorretaComponent,
+    Pergunta03Component,
+    Pergunta04Component,
+    Pergunta05Component
   ],
   imports: [
     BrowserModule,
