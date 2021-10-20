@@ -16,12 +16,15 @@ import { RafaVsWillianComponent } from './episodios/rafa-vs-willian/rafa-vs-will
 import { Final2018Component } from './episodios/final2018/final2018.component';
 import { Pergunta01Component } from './perguntas/pergunta01/pergunta01.component';
 import { Pergunta02Component } from './perguntas/pergunta02/pergunta02.component';
-import { CorretaComponent } from './Respostas/correta/correta.component';
 import { IncorretaComponent } from './respostas/incorreta/incorreta.component';
 import { Pergunta03Component } from './perguntas/pergunta03/pergunta03.component';
 import { Pergunta04Component } from './perguntas/pergunta04/pergunta04.component';
 import { Pergunta05Component } from './perguntas/pergunta05/pergunta05.component';
-import { Teste01Component } from './testes/teste01/teste01.component';
+import { Correta01Component } from './corretas/correta01/correta01.component';
+import { Correta02Component } from './corretas/correta02/correta02.component';
+import { Correta03Component } from './corretas/correta03/correta03.component';
+import { Correta04Component } from './corretas/correta04/correta04.component';
+import { Correta05Component } from './corretas/correta05/correta05.component';
 
 @NgModule({
   declarations: [
@@ -39,12 +42,15 @@ import { Teste01Component } from './testes/teste01/teste01.component';
     Final2018Component,
     Pergunta01Component,
     Pergunta02Component,
-    CorretaComponent,
     IncorretaComponent,
     Pergunta03Component,
     Pergunta04Component,
     Pergunta05Component,
-    Teste01Component
+    Correta01Component,
+    Correta02Component,
+    Correta03Component,
+    Correta04Component,
+    Correta05Component
   ],
   imports: [
     BrowserModule,

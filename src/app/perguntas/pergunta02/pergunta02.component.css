@@ -6,3 +6,9 @@ p{
 h4{
     font-weight: 500;
 }
+
+img{
+  width: 50%;
+  margin-left: 200px;
+  margin-top: 5px;
+}
