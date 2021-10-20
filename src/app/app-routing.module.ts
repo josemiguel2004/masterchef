@@ -1,3 +1,5 @@
+
+import { Pergunta02Component } from './perguntas/pergunta02/pergunta02.component';
 import { IncorretaComponent } from './respostas/incorreta/incorreta.component';
 import { Final2018Component } from './episodios/final2018/final2018.component';
 import { RafaVsWillianComponent } from './episodios/rafa-vs-willian/rafa-vs-willian.component';
@@ -25,7 +27,10 @@ const routes: Routes = [
   {path:'rafa-vs-willian',component:RafaVsWillianComponent},
   {path:'final2018',component:Final2018Component},
   {path:'pergunta01',component:Pergunta01Component},
-  {path:'incorreta',component:IncorretaComponent}
+  {path:'incorreta',component:IncorretaComponent},
+  {path:'pergunta02',component:Pergunta02Component},
+
+
 ];
 
 @NgModule({

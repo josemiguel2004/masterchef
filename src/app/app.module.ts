@@ -21,6 +21,7 @@ import { IncorretaComponent } from './respostas/incorreta/incorreta.component';
 import { Pergunta03Component } from './perguntas/pergunta03/pergunta03.component';
 import { Pergunta04Component } from './perguntas/pergunta04/pergunta04.component';
 import { Pergunta05Component } from './perguntas/pergunta05/pergunta05.component';
+import { Teste01Component } from './testes/teste01/teste01.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { Pergunta05Component } from './perguntas/pergunta05/pergunta05.component
     IncorretaComponent,
     Pergunta03Component,
     Pergunta04Component,
-    Pergunta05Component
+    Pergunta05Component,
+    Teste01Component
   ],
   imports: [
     BrowserModule,
